@@ -235,10 +235,10 @@ export default function App() {
         // <BrowserRouter>
             <div className="App">
                 <Routes>
-                    <Route path = "/InterfaceDemo" element = {<Login isHaveMetamask = {haveMetamask} connectTo = {connectWallet} />}></Route>
-                    <Route path = "/InterfaceDemo/profile" element = {<ProfileDisplay/>}></Route>
-                    <Route path = "/InterfaceDemo/storage" element = {<StorageDisplay/>}></Route>
-                    <Route path = "/InterfaceDemo/history" element = {<HistoryDisplay/>}></Route>
+                    <Route path = "/nova" element = {<Login isHaveMetamask = {haveMetamask} connectTo = {connectWallet} />}></Route>
+                    <Route path = "/nova/profile" element = {<ProfileDisplay/>}></Route>
+                    <Route path = "/nova/storage" element = {<StorageDisplay/>}></Route>
+                    <Route path = "/nova/history" element = {<HistoryDisplay/>}></Route>
                 </Routes>
             </div>
         // </BrowserRouter>
