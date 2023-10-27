@@ -77,7 +77,7 @@ export default function App() {
             setBalance(bal);
             setIsConnected(true);
 
-            navigate('/InterfaceDemo/profile');
+            navigate('/nova/profile');
         }
         catch (error){
             setIsConnected(false);
